@@ -1,11 +1,12 @@
 #!/usr/bin/env bash
 
-# Random Name Generator
+# Random Name Generator, in bash
+#
 #   Copyright: Eric Duncan (me@eduncan911.com) 2024
 #   Source: https://github.com/eduncan911/randname
 #
 # Usage:
-#     $ curl -L https://<to do>/url/url | bash
+#     $ curl -L https://<to-do>/url/url | bash
 #     wozniak
 #
 # Options can be declared in ENV prefixes.
@@ -14,6 +15,8 @@
 #     boring_wozniak  
 #   
 # Disclaimer: Steve Wozniak is NOT boring!
+#
+# Original concept: https://github.com/moby/moby/blob/952e1e62c5d7b326bf68cca2bb014b98e444be40/pkg/namesgenerator/names-generator.go
 #
 
 # defaults to yes if not set
